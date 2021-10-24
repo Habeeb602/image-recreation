@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) ), url("./images/bgimage.jpg");
+    height:100vh;
+    background-size:contain;
+    text-align:center;
+}
+
+#heading{
+    font-size:24px;
+}
+
+.pics{
+    width:100px;
+    height:100px;
+}
+
+table{
+    border-bottom:2px;
+    margin:2% 5% 5%;
+    width:90%;
+    height:75%;
+}
+
+.abbre,.hdline{
+    font-weight:bolder;
+    font-size:18px;
+}
+
+.full{
+    font-weight:lighter;
+}
+
+.line,td,tr{
+    border:1px solid black;
+    /* border-collapse: collapse; */
+}
